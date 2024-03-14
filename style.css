@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 100%
+    font-family: sans-serif;
+    
+    
+}
+h1{
+    color: #fafafa;
+}
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+/*css reset*/
+header{
+    width: 170%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    
+    
+    
+}
+
+#manu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+#manu li a{
+    color: #fffefe;
+    text-decoration: none;
+    
+
+}
+section {
+    width: 100%;
+    float: left;
+    height: 100vh;
+}
+a{
+    width: 50px;
+    height: 1px;
+    
+}
